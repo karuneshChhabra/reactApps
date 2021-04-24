@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.app__formcontrol{
+  display: flex !important;
+  text-align: left;
+  flex-direction: row !important;
+  margin-right: 40px  !important;
+}  
+
+.app__form{
+  padding: 20px;
+  flex-direction: row;
+  position: fixed;
+  bottom: 5px;
+  z-index: 2;
+  background-color: #e9e9eb;
+  width: 100%;
+  margin: 20px;
+}
+
+.app__input__text{
+  flex:1;
+}
+
+.app__iconButton{
+  flex:0;
+}
+
+
+
+/* .messages__flip:last-child{
+  margin-bottom: 80px;
+}
+
+.message__user:last-child{
+  margin-bottom: 200px;
+} */
+
+.content__view{
+  margin-bottom: 120px;
+}

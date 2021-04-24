@@ -1,0 +1,32 @@
+.message__text{
+    text-align: left;
+    padding: 10px;
+    width: fit-content !important;
+    margin: 10px;
+}
+
+.MuiCard-root {
+    width: fit-content ;
+}    
+
+.MuiCardContent-root {
+    padding: 10px !important;
+}
+
+.MuiCardContent-root:last-child {
+    padding-bottom: 10px !important;
+}
+
+.message__user{
+    text-align: right !important;
+    color: #0B81ff !important;
+    margin-left: auto;
+}
+
+.message__user 
+    .MuiPaper-root {
+
+        color: #0B81ff !important;
+
+       
+}
