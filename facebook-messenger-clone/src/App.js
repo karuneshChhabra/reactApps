@@ -75,6 +75,7 @@ function App() {
           </div>
 
       <form className="app__form">
+        
       <FormControl flex className="app__formcontrol">
           <InputLabel >Enter a Message</InputLabel>
           <Input className="app__input__text" placeholder="Enter a message..."
