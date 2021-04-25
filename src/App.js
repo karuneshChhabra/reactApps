@@ -74,7 +74,7 @@ function App() {
         
       <FormControl flex className="app__formcontrol">
           <InputLabel >Enter a Message</InputLabel>
-          <Input className="app__input__text" placeholder="Enter a message..."
+          <Input className="app__input__text" placeholder="Enter a Message..."
           value={input}
           onChange={(event) => setInput(event.target.value)}/>
          
@@ -85,19 +85,7 @@ function App() {
      
          
       </FormControl>
-      
-      {/* <div flex className="app_input"> */}
-        {/* <Input
-          value={input}
-          onChange={(event) => setInput(event.target.value)}
-        />
-        {/* <button type="submit" onClick={messageList}>
-          Send Message
-        </button> */}
-       
-        {/* <SendIcon disabled={!input} variant="outline" color="variant" type="submit" onClick={messageList}>Send Message</SendIcon>
-       */}
-        {/* </div>  */}
+    
       </form>
     </div>
   );
