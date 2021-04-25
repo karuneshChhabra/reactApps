@@ -8,7 +8,7 @@ import "./Message.css"
 const Message =  forwardRef(({message,userName},ref) => {
 
     
-    const isUser = userName ===message.userName;
+    const isUser = userName.toLowerCase() ===message.userName.toLowerCase();
     
 
     return(
