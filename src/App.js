@@ -33,7 +33,6 @@ function App() {
         var elmnt = document.getElementById("content");
         elmnt.scrollIntoView();
       });
-    console.log(messages);
   }, []);
 
   const messageList = (event) => {
@@ -48,10 +47,7 @@ function App() {
       timestamp: firebase.firestore.FieldValue.serverTimestamp(),
       userName: userName,
     });
-
-   // setMessages([...messages, {userName:userName,message:input}]);
     setInput("");
-   
     
   };
 
@@ -61,7 +57,7 @@ function App() {
       <img style={{'padding-top':'10px'}} src="https://facebookbrand.com/wp-content/uploads/2018/09/Header-e1538151782912.png?w=100&h=100"/>
     
         <h1>My Chat Application</h1>
-        <h2>Welcome :{userName}</h2>
+        <h2>Welcome : {userName}</h2>
         <FlipMove className="messages__flip">
       {messages &&
         messages.map((message,index) => (
